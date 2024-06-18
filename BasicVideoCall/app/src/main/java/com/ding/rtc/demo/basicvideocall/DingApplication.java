@@ -9,8 +9,8 @@ import com.ding.rtc.DingRtcEngine;
 
 public class DingApplication extends Application {
 
-    public static final String APP_ID = "byhbqw5p"; // 应用ID
-    public static final String TOKEN = "000eJxjYGBQiFz9yXZVv7ppzsFJ3zVPLPx8/7CZ+oeS2MZb2pdUTTPndTAwMHAkVWYkFZabFqQVFgTFFm4WTis6eAkozpySkgKiEpOSGRgZRsGQAwAChxxQ"; // 频道鉴权令牌Token
+    public static final String APP_ID = "id"; // 应用ID
+    public static final String TOKEN = "token"; // 频道鉴权令牌Token
     public static final String GSLB_SERVER = ""; // GSLB地址
     private DingRtcEngine mRtcEngine;
     private final DingEngineCallback mRtcCallback = new DingEngineCallback();
